@@ -1,0 +1,33 @@
+/* === TAPETA TŁA === */
+body {
+  background-image: url("https://images5.alphacoders.com/768/thumb-1920-768483.png");
+  background-size: cover !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+}
+
+/* === PÓŁPRZEZROCZYSTE TŁO LISTY === */
+#container,
+.list-table,
+.list-container,
+table {
+  background: rgba(0, 0, 0, 0.55) !important;
+  border-radius: 10px !important;
+}
+
+/* === TŁO WIERSZY === */
+.title-list .title-row,
+.list-table-data,
+tr {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* === KOLORY TEKSTU === */
+td, th {
+  color: #ffffff !important;
+}
+
+/* === DODATKOWE STYLIZACJE === */
+.title-list .title-row:hover {
+  background: rgba(50, 50, 50, 0.45) !important;
+}
